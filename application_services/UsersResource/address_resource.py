@@ -4,7 +4,7 @@ from database_services.RDBService import RDBService
 
 class AddressResource(BaseApplicationResource):
 
-    db_name = "aaaaF21"
+    db_name = "db"
     table_name = "addresses"
 
     def __init__(self):
